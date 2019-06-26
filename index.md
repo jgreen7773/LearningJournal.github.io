@@ -4,14 +4,17 @@ by James Green
 ### Outline of in-class learning
 
 
+### Here is a link to my other page
+<a href="Document_Learnings.html">My Documented Learning</a>
+
 
 ```markdown
 
-# Code 102: Intro to Software Development    
-## What is my story? They want to help me capture it.
-### “Learning to Learn” is the first objective
+ Code 102: Intro to Software Development    
+ What is my story? They want to help me capture it.
+ “Learning to Learn” is the first objective
 
-GitHub - application
+GitHub - application - task
 
 Complete and Open environment conduct code
  Growth mindset “Principle”

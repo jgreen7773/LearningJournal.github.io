@@ -403,24 +403,24 @@ PARENT/CHILD Hierarchy inside HTML utilizes INDENTATION
 
 
 
-<div>
+<div
 		is an html 2, 3, and 4 component
 
 
 
 
 
-<header>
-	<Div>
-		<Div>
-			<Div>
+<header
+	<Div
+		<Div
+			<Div
 					All these boxes go inside the header
 
 CSS needs to account for all these extra boxes separately, so it looks more like this:
 
-<header>
-	<nav>
-		<-1>
+<header
+	<nav
+		<-1
 
 DEFINITIONS
 

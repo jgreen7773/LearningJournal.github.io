@@ -1,0 +1,56 @@
+header {
+    background: #888;
+    border-color: Orange;
+    padding: 20px;
+    font-family: sans-serif;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-right: 30px;
+    font-size: 18px;
+
+}
+
+li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100%;
+}
+
+#products li {
+    float: left;
+    margin-right: 30px;
+}
+
+p {
+    display: inline-block;
+    text-overflow: left;
+    text-decoration: sans-serif;
+    text-decoration-color: grey;
+    background-color: #dd8706;
+    
+}
+
+article {
+    float: left;
+    display: inline-block;
+}
+
+footer {
+    border-top-width: 22px;
+    border-color: 222333;
+}

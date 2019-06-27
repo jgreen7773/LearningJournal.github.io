@@ -34,8 +34,170 @@
             and push them back to the same place without creating "bad-code-hazards" because of the file-save system.
             You can always go back a to a previous version of the files before any mistake becomes a problem.
         </p>
+        <p>
+            Here is my entry for the Lab 04 website.
+        </p>
+        <p>
+            HTML COMMANDS
+	ul
+		unordered list
+	li
+		list item
+	a href=“google.com”click me
+		Hyperlink reference
+	img src=“logo.png”
+		An image tag is a self closing tag
+	p id=“title”cool
+		example of adding an ID to an element
+	!DOCTYPE html
+		ALWAYS the first tag in an html document
+	html
+		ALWAYS the second tag in an html document
+	head
+		Should always contain title (title shows up above address bar)
+			“That holds meta information and dependencies for my html”
+	header
+		Different than head and goes inside body
+	title
+		displays title of page above
+	body
+		all of your content that displays, goes here…everything that displays
+	h1
+		big header
+			Should only ever be one h1 on the page
+	h2
+		medium header, etc…
+	nav
+		navigations pane
+			USE NAV for semantics and SEO (hiring) organization
+	main
+		Should contain ALL of the main content
+	img id=“logo” src=“http://placehold.it/200x100”
+		An ID is a unique identifier, you cannot use the same “logo” in any
+		other ID’s
+			Place Cage is a photo generator that places random photos in
+	“http://placehold.it/200x100”
+		Use this website to
+	section
+		better version of a div
+	div
+		box that should go into a section
+	ul id=“products”
+		li img src=“http://placehold.it/200x100”
+		li img src=“http://placehold.it/200x100”
+		li img src=“http://placehold.it/200x100”
+	ul
+		
+
+DAY 3    Creativity of Design
+
+Hack it all together at first, then use tons of duck tape, then go back and clean it up  Check how to make my own stuff that looks weird, and make it look better  Learning Journal page
+
+The CSS “talk” is important  Floats are a pain in the ass
+
+    CSS READING NOTES, IMPRESSIONS, AND CODE   BOXES 	Color, Width, and Style TEXT 	Typeface, Size, Color, Italics, Bold, Uppercase, Lowercase, small-caps BORDERS 	Width, Height, BG Color, Text inside box and its color, size, Typeface        CSS COMMANDS; WRITE STYLE OF CODE; DEFINITIONS 	 p {      font - family: Arial;} 				The “P” is the selector
+				Everything in the {} is the declaration  h1, h2, h3 { 		font-family: Arial; 		color: yellow;} 				The PROPERTY goes before the colon :
+				The VALUE goes after the colon, ends with semi colon ;  * {} 				Universal selector  		IF TWO SELECTORS ARE IDENTICAL, the latter takes precedence      CSS COLORING: 	3 different ways to enter the code 		p { color : DarkCyan ; } 		p { color : #ee3e80 ; } 		p { color : rgb ( 100, 37, 58 ) ; }
+ 	Some Properties to experiment with 		{ background-color : rgb ( 0, 0, 0 ) ; opacity : 0.5 ; }	 		{ background-color : hsl ( 0, 0%, 73% ) ; }
+			H= hue
+			S= saturation
+			L= lightness
+			A= transparency 
+MORE CSS CODE
+	body { background-color : silver ; 		color : white;  		padding : 20px ;  		font-family : Arial, Verdana, sans-serif ; }
+	h1 { background-color: #ffffff ;  		background-color: hula ( 0, 100%, 100%, 0.5 ) ; 
+		color : #64645A ;  		padding : inherit ; }
+	p { padding
+
+	header {
+    background: #888;
+    border-color: Orange;
+    padding: 20px;
+    font-family: sans-serif;
+    height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-right: 30px;
+    font-size: 18px;
+
+}
+
+li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#logo {
+    width: 100%;
+}
+
+#products li {
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    border-top-width: 22px;
+    border-color: 222333;
+}
+
+
+
+
+
+
+ table tag  		SHOULD BE USED FOR TABULAR DATA ONLY 			for data with ROWS and COLUMNS
+
+BLOCK
+	header
+	footer
+	section
+	main        includes all content     -     header, body, footer 	<div>
+	p	nav
+	ul
+	ol
+	li
+	h1 through h6	
+
+	article
+	aside
+
+
+ INLINE 	img
+	a
+	span
+ 	em emphasis		USE IN CSS 	I important			USE IN CSS
+	b bold				USE IN CSS   
+POSITIONING PROPERTIES 	relative
+	absolute
+	static (goes back to default setting)
+	inherit (inherited from parent) 	fixed
+		Absolute and Relative relationships
+		overlay of any type is they key to understanding this command
+			section there is a wrapper around image
+				img	Give this one absolute tag
+				img	
+				div	Give this whole div section absolute
+					span
+					
+		putting a highlighting arrow under a hyperlink (selected)    FLOATS 	Needs to be understood from a CSS 2 perspective AND CSS 3, separately
+		Used to wrap text around image 			People don’t use it for this
+		Used for images that are vertical to make them horizontal
+			Float : left ; 				This will collapse space that is below any area of the float
+					20 px margin will not drop the item down at all 					240 px margin will not drop down 					320 px margin will drop because the measure starts 						from the point of the float 						Just don’t worry about that funky float behavior
+        </p>
     </body>
     <footer>
-        PS. I ran into this "DS_Store" file simply because I wanted to add a new file (image) into my page, and practice my HTML
     </footer>
 </html>

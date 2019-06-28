@@ -13,6 +13,7 @@
             Basic HTML Format (without opening and closing brackets)
         </h2>
         <article>
+            <area>
             !DOCTYPE html
             html (in)
                 head (in)
@@ -42,6 +43,7 @@
                         main (i think)
                         and some other ones I don't know about yet
                 body (out)
+            </area>
         </article>
         <h2>
             Here is code for Terminal!
@@ -139,6 +141,65 @@
 	        git pull origin master
 		        pulls all of the current repository
 			        BE CAREFUL OF OVERWRITING UNSAVED FILES
+            </area>
+        </article>
+        <article>
+            <area>One important thing to consider when coding, is how you will keep your data clean.
+                What I mean by clean, is readable. Being able to read code requires that you separate the 
+                different languages as much, and as cleanly as possible.
+                That means keeping HTML code in a .html file, and CSS code in a .css file, and the same for a .js file.
+                When creating a website just enhance it little by little, and you should continually go back to view the web-page 
+                to see what your code is doing. You can do this easily in the Chrome development tool add-on, and to open the tool 
+                just press [Command + Option + i].
+                Create a basic javascript file with the following commands:
+                    var today = new Date();
+                    var hourNow = today.getHours();
+                    var greeting;
+
+                    if (hourNow > 18) {
+                        greeting = 'Good evening!';}
+                    else if (hourNow > 12) {
+                        greeting = 'Good afternoon!';}
+                    else if (hourNow > 0) {
+                        greeting = 'Good morning!';}
+                    else {
+                        greeting = 'Welcome!';}
+
+
+                    document.write('[h3]' + greeting + '[/h3]');
+
+
+
+                For html code the tags will be encased in [these] brackets so the code doesn't read as real code.
+                Create a basic html file with the following commands.
+                    [!DOCTYPE html]
+                    [html]
+                        [head]
+                            [title]Constructive &amp; Co.[/title]
+                            [link rel="stylesheet" href="css/c01.css" /]
+                        [/head]
+                        [body]
+                            [h1]Constructive &amp; Co.[/h1]
+                            [script src="js/add-content.js"][/script]
+                            [p]For all orders and inquiries please call 
+                                [em]555-3344[/em][/p]
+                        [/body]
+                    [/html]
+
+
+                
+                
+                I learned how to link an .js file to the HTML file like this:
+                    [script src="app.js">Java Script Link[/script]
+
+                
+                
+                I learned next, how to use objects and methods.
+                    A method is a command that is run on a property of an object, or the object itself.
+                        Writtin like this:
+
+                        document.write('Good afternoon!')
+                    There it is, simple as that!
             </area>
         </article>
     </body>

@@ -4,8 +4,9 @@ by James Green
 ### Outline of in-class learning
 
 
-### Here is a link to my other page
+### Here are links to my other pages
 <a href="Document_Learnings.html">My Documented Learning</a>
+<a href="Cheat_Sheet.html">This Is My Cheat Sheet</a>
 
 
 ```markdown
